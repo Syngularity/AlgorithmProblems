@@ -52,6 +52,6 @@ def find_anagram(input, find):
             
     print ("Total Matches: " + str(match_count))
         
-find_anagram(input, "ant")
+find_anagram("antant", "ant")
 
 
