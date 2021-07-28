@@ -13,11 +13,13 @@ def find_anagram(input, find):
     
     #Populate our matcher dictionary
     for value in range(0, len(find)):
-        if value not in matching:
+        if find[value] not in matching:
             matching[find[value]] = 1
         else:
             matching[find[value]] += 1
+            
     print(matching)
+    
     working_matcher = dict(matching)
     letters = len(find)
     
@@ -40,6 +42,6 @@ def find_anagram(input, find):
             working_matcher = dict(matching)
             letters = len(find)
         
-find_anagram(input,"cab")
+find_anagram("banana aanbna many bananas do monkeys like to aaannb", "banana")
 
 
