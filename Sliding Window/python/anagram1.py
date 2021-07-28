@@ -4,6 +4,7 @@
 # Finds anagrams in random string input given a search word
 # This implmentation doesn't fully use a sliding window
 ############################################################
+__author__ = "Charles Qian"
 
 import string
 import random
